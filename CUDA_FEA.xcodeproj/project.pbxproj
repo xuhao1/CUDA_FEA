@@ -7,8 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		692A8B51185F07B900724BD5 /* FEA_Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 692A8B4F185F07B900724BD5 /* FEA_Triangle.cpp */; };
+		692A8B54185F08BB00724BD5 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 692A8B52185F08BB00724BD5 /* Triangle.cpp */; };
+		692A8B57185F098300724BD5 /* FEA_TRI_Site.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 692A8B55185F098300724BD5 /* FEA_TRI_Site.cpp */; };
+		692A8B5A185F0A0100724BD5 /* site.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 692A8B58185F0A0100724BD5 /* site.cpp */; };
+		692A8B5D185F0A4300724BD5 /* vector2f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 692A8B5B185F0A4300724BD5 /* vector2f.cpp */; };
+		692A8B60185F0AB900724BD5 /* matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 692A8B5E185F0AB900724BD5 /* matrix.cpp */; };
+		692A8B63185F0AF000724BD5 /* pre_tri_cpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 692A8B61185F0AF000724BD5 /* pre_tri_cpu.cpp */; };
+		692A8B66185F0B6F00724BD5 /* TRI_Edge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 692A8B64185F0B6F00724BD5 /* TRI_Edge.cpp */; };
 		696C708C185EFFB800CD3F1B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 696C708B185EFFB800CD3F1B /* main.cpp */; };
-		696C708E185EFFB800CD3F1B /* CUDA_FEA.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 696C708D185EFFB800CD3F1B /* CUDA_FEA.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,16 +25,30 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				696C708E185EFFB800CD3F1B /* CUDA_FEA.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		692A8B4F185F07B900724BD5 /* FEA_Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FEA_Triangle.cpp; sourceTree = "<group>"; };
+		692A8B50185F07B900724BD5 /* FEA_Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEA_Triangle.h; sourceTree = "<group>"; };
+		692A8B52185F08BB00724BD5 /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		692A8B53185F08BB00724BD5 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		692A8B55185F098300724BD5 /* FEA_TRI_Site.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FEA_TRI_Site.cpp; sourceTree = "<group>"; };
+		692A8B56185F098300724BD5 /* FEA_TRI_Site.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEA_TRI_Site.h; sourceTree = "<group>"; };
+		692A8B58185F0A0100724BD5 /* site.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = site.cpp; sourceTree = "<group>"; };
+		692A8B59185F0A0100724BD5 /* site.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = site.h; sourceTree = "<group>"; };
+		692A8B5B185F0A4300724BD5 /* vector2f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vector2f.cpp; sourceTree = "<group>"; };
+		692A8B5C185F0A4300724BD5 /* vector2f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector2f.h; sourceTree = "<group>"; };
+		692A8B5E185F0AB900724BD5 /* matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matrix.cpp; sourceTree = "<group>"; };
+		692A8B5F185F0AB900724BD5 /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+		692A8B61185F0AF000724BD5 /* pre_tri_cpu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pre_tri_cpu.cpp; sourceTree = "<group>"; };
+		692A8B62185F0AF000724BD5 /* pre_tri_cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pre_tri_cpu.h; sourceTree = "<group>"; };
+		692A8B64185F0B6F00724BD5 /* TRI_Edge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TRI_Edge.cpp; sourceTree = "<group>"; };
+		692A8B65185F0B6F00724BD5 /* TRI_Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRI_Edge.h; sourceTree = "<group>"; };
 		696C7088185EFFB800CD3F1B /* CUDA_FEA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CUDA_FEA; sourceTree = BUILT_PRODUCTS_DIR; };
 		696C708B185EFFB800CD3F1B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		696C708D185EFFB800CD3F1B /* CUDA_FEA.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CUDA_FEA.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +82,22 @@
 			isa = PBXGroup;
 			children = (
 				696C708B185EFFB800CD3F1B /* main.cpp */,
-				696C708D185EFFB800CD3F1B /* CUDA_FEA.1 */,
+				692A8B4F185F07B900724BD5 /* FEA_Triangle.cpp */,
+				692A8B50185F07B900724BD5 /* FEA_Triangle.h */,
+				692A8B52185F08BB00724BD5 /* Triangle.cpp */,
+				692A8B53185F08BB00724BD5 /* Triangle.h */,
+				692A8B55185F098300724BD5 /* FEA_TRI_Site.cpp */,
+				692A8B56185F098300724BD5 /* FEA_TRI_Site.h */,
+				692A8B58185F0A0100724BD5 /* site.cpp */,
+				692A8B59185F0A0100724BD5 /* site.h */,
+				692A8B5B185F0A4300724BD5 /* vector2f.cpp */,
+				692A8B5C185F0A4300724BD5 /* vector2f.h */,
+				692A8B5E185F0AB900724BD5 /* matrix.cpp */,
+				692A8B5F185F0AB900724BD5 /* matrix.h */,
+				692A8B61185F0AF000724BD5 /* pre_tri_cpu.cpp */,
+				692A8B62185F0AF000724BD5 /* pre_tri_cpu.h */,
+				692A8B64185F0B6F00724BD5 /* TRI_Edge.cpp */,
+				692A8B65185F0B6F00724BD5 /* TRI_Edge.h */,
 			);
 			path = CUDA_FEA;
 			sourceTree = "<group>";
@@ -117,7 +153,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				692A8B5D185F0A4300724BD5 /* vector2f.cpp in Sources */,
+				692A8B66185F0B6F00724BD5 /* TRI_Edge.cpp in Sources */,
+				692A8B51185F07B900724BD5 /* FEA_Triangle.cpp in Sources */,
+				692A8B54185F08BB00724BD5 /* Triangle.cpp in Sources */,
+				692A8B60185F0AB900724BD5 /* matrix.cpp in Sources */,
+				692A8B63185F0AF000724BD5 /* pre_tri_cpu.cpp in Sources */,
 				696C708C185EFFB800CD3F1B /* main.cpp in Sources */,
+				692A8B5A185F0A0100724BD5 /* site.cpp in Sources */,
+				692A8B57185F098300724BD5 /* FEA_TRI_Site.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +239,13 @@
 		696C7092185EFFB800CD3F1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Developer/NVIDIA/CUDA-5.5/include",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -202,6 +253,13 @@
 		696C7093185EFFB800CD3F1B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Developer/NVIDIA/CUDA-5.5/include",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -225,6 +283,7 @@
 				696C7093185EFFB800CD3F1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
